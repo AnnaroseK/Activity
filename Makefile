@@ -1,11 +1,12 @@
-PROJ_NAME = LED
+PROJ_NAME = Embeddedc
 
 BUILD_DIR = Build
 
 # All Source code files
-SRC = main.c\
+SRC = src\Activity1.c\
+src\Activtiy2.c\
 
-
+INC= -I inc
 # All header file paths
 
 # Find out the OS and configure the variables accordingly
